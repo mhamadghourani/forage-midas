@@ -47,6 +47,8 @@ public class TaskFiveTests {
             output.append(balance.toString()).append("\n");
         }
         output.append("---end output ---");
-        logger.info(output.toString());
+//        logger.info(output.toString());
+        System.out.println(output.toString());
+        Thread.sleep(30000);
     }
 }
