@@ -28,15 +28,16 @@ The application simulates a core banking service responsible for processing fina
 
 ## Technologies Used
 
-| Technology | Version |
+| Technology | Purpose |
 |------------|----------|
-| Java | 17 |
-| Spring Boot | 4.x |
-| Maven | Latest |
-| Spring Data JPA | Included |
-| H2 Database | Included |
-| JUnit 5 | Included |
-| Mockito | Included |
+| Java 17 | Core application development |
+| Spring Boot | Backend framework |
+| Apache Kafka | Event streaming and transaction processing |
+| Spring Data JPA | Database access |
+| H2 Database | Data persistence |
+| Maven | Build automation |
+| JUnit 5 | Testing |
+| Mockito | Mocking framework |
 
 ---
 
